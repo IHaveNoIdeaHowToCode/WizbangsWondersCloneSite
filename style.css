@@ -1,0 +1,46 @@
+body * {
+  outline: 1px dashed cornflowerblue;
+}
+
+.button {
+  border: none;
+  color: whitesmoke;
+  padding: 15px;
+  text-align: center;
+  display: inline-block;
+  font-size: 10px;
+  background-color: red;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 10%
+}
+
+.section-one {
+  text-align: center;
+  display: flex;
+  margin: 5em;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.section-two {
+  background-image: url("https://c8.alamy.com/comp/2XFTB2C/background-with-magic-items-witchcraft-alchemy-mystery-elements-2XFTB2C.jpg");
+
+  background-position: center;
+  background-size: cover;
+  flex-wrap: wrap;
+  flex-direction: column;
+  display: flex;
+  align-items: flex-start;
+  text-align: center;
+  height: 200px;
+  position: relative;
+  padding: 20px;
+}
+
+.section-three {
+  background-color: black;
+}
+
+.section-three>.card {
+  background-color: tan;
+}
